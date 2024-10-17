@@ -13,7 +13,7 @@
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(255, 255, 255, 0.2);
+  --highlight-color: rgba(78, 74, 74, 0.2);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
@@ -42,18 +42,16 @@ body * {
 #profile {
   text-align: center;
   padding: 24px;
-  
 }
 #nomeperfil {
   font-weight: 500;
   height: 24px;
-  text-align:center;
-  
+
+  text-align: center;
 }
 #profile img {
   width: 112px;
   height: 111px;
-
 }
 #profile p {
   font-weight: 500;
@@ -65,7 +63,6 @@ body * {
   width: 64px;
   height: 24px;
   margin: 4px auto;
-  
 }
 #switch button {
   width: 32px;
@@ -138,6 +135,10 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
+#switch a:hover {
+  background: var(--highlight-color);
+  border-radius: 50%;
+}
 /* icones do social links */
 #social-links {
   display: flex;
